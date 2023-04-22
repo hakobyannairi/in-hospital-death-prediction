@@ -1,6 +1,6 @@
 class Model:
     def __init__(self,):
-        pass
+        print('change from remote')
 
     def fit(self, X, y):
         pass
