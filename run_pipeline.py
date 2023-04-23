@@ -12,6 +12,6 @@ class Pipeline:
         # load preprocessor and model for testing
         # save results to predictions.json file
         else:
-            pass
+            print('training mode')
         # call preprocessor and model for training
         # save preprocessor and model for future testing
