@@ -3,7 +3,7 @@ class Model:
         print('change from remote')
 
     def fit(self, X, y):
-        pass
+        print('fitting data')
 
     def predict(self, X):
         pass
