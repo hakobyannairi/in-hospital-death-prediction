@@ -8,7 +8,7 @@ class Pipeline:
 
     def run(self, X, test=False):
         if test:
-            pass
+            print('testing mode')
         # load preprocessor and model for testing
         # save results to predictions.json file
         else:
