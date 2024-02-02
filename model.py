@@ -1,6 +1,6 @@
 class Model:
     def __init__(self,):
-        print('change from remote')
+        print('change from local')
 
     def fit(self, X, y):
         print('fitting data')
