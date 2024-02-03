@@ -3,13 +3,12 @@ from preprocessor import Preprocessor
 
 class Pipeline:
     def __init__(self,):
-        print('pipeline initialization from remote')
         self.model = Model()
         self.preprocessor = Preprocessor()
 
     def run(self, X, test=False):
         if test:
-            print('we are in the testing mode')
+            print('testing mode')
         # load preprocessor and model for testing
         # save results to predictions.json file
         else:
