@@ -4,6 +4,7 @@ class Model:
         pass
 
     def fit(self, X, y):
+        print('function for testing')
         pass
 
     def predict(self, X):
