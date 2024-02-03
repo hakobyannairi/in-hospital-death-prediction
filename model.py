@@ -8,5 +8,6 @@ class Model:
         pass
 
     def predict(self, X):
-        print('change from remote')
+        print('change from local')
+        print('remote changes refused')
         pass
