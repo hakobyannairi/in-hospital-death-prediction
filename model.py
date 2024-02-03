@@ -8,4 +8,5 @@ class Model:
         pass
 
     def predict(self, X):
+        print('change from remote')
         pass
