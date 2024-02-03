@@ -3,6 +3,7 @@ from preprocessor import Preprocessor
 
 class Pipeline:
     def __init__(self,):
+        print('pipeline initialization from remote')
         self.model = Model()
         self.preprocessor = Preprocessor()
 
