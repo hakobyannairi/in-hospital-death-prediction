@@ -1,5 +1,6 @@
 class Model:
-    def __init__(self,):
+    def __init__(self, new_param):
+        self.my_param = new_param
         print('change from local')
         pass
 
@@ -10,7 +11,4 @@ class Model:
     def predict(self, X):
         print('change from local')
         print('remote changes refused')
-        pass
-
-    def function_from_remote(self):
         pass
