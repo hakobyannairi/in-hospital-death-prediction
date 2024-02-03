@@ -11,3 +11,6 @@ class Model:
         print('change from local')
         print('remote changes refused')
         pass
+
+    def function_from_remote(self):
+        pass
