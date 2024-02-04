@@ -5,7 +5,6 @@ class Pipeline:
     def __init__(self,):
         self.model = Model()
         self.preprocessor = Preprocessor()
-        print('change from local')
 
     def run(self, X, test=False):
         if test:
