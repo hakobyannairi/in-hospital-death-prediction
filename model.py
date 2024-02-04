@@ -4,7 +4,7 @@ class Model:
         pass
 
     def fit(self, X, y):
-        print('remote change')
+        print('training function')
         pass
 
     def predict(self, X):
